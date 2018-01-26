@@ -1,0 +1,25 @@
+{
+  "name": "Start here",
+  "version": "0.0.1",
+  "description": "Create a starthere.html that can detect if the internet connection exists, if yes, it redirects to the online gettingstarted.html, otherwise it should open the offline version of gettingstarted.html",
+  "scripts": {
+    "test": "npm run eslint --single-run",
+    "server": "node ./node_modules/http-server/bin/http-server -c-1 -p 8882",
+    "start": "npm run server",
+    "eslint": "eslint --color -c ./eslintrc.js \"src/**/*.js\" \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ni-kismet/measurementslive-landingpage.git"
+  },
+  "author": "tlan",
+  "license": "https://www.ni.com/legal/license/",
+  "bugs": {
+    "url": "https://github.com/popolan1986/starthere/issues"
+  },
+  "homepage": "https://github.com/popolan1986/starthere#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "http-server": "^0.10.0"
+  }
+}
