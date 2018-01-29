@@ -1,5 +1,5 @@
 {
-  "name": "Start here",
+  "name": "@popolan1986/starthere",
   "version": "0.0.1",
   "description": "Create a starthere.html that can detect if the internet connection exists, if yes, it redirects to the online gettingstarted.html, otherwise it should open the offline version of gettingstarted.html",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ni-kismet/measurementslive-landingpage.git"
+    "url": "git+https://github.com/popolan1986/starthere.git"
   },
   "author": "tlan",
   "license": "https://www.ni.com/legal/license/",
